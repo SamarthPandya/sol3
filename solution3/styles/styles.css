@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#mi {
+  background-color: rgb(216, 212, 207);
+  border: black 2px solid;
+  width: 100%;
+  margin: 3px;
+}
+.content {
+  color: rgba(0, 0, 0, 0.692);
+}
+h1 {
+  color: rgba(0, 0, 0, 0.692);
+  margin: 30px;
+  font-weight: bold;
+}
+body {
+  background-color: rgba(207, 207, 207, 0.931);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#header-nav {
+  background-color: rgba(110, 121, 118, 0.863);
+  border: 0;
+  color: rgba(0, 0, 0, 0.692);
+  border-radius: 0;
+  height: 80px;
+}
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 0;
+}
+.navbar-brand p {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  vertical-align: auto;
+  font-weight: bold;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.692);
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+#bt {
+  margin-top: 20px;
+}
+.item1,
+.item2,
+.item3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.content {
+  padding: 20px;
+}
+
+section {
+  position: relative;
+  margin-left: 25px;
+  border: rgb(31, 28, 28) 1px solid;
+  margin-bottom: 17px;
+  text-align: justify;
+  background-color: rgba(110, 121, 118, 0.863);
+}
+
+/****Responsive Design****/
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33333%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #mi {
+    display: none;
+  }
+}
